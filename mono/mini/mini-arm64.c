@@ -2661,7 +2661,7 @@ mono_arch_lowering_pass (MonoCompile *cfg, MonoBasicBlock *bb)
 			}
 			break;
 		case OP_FCOMPARE: 
-    case OP_RCOMPARE: {
+		case OP_RCOMPARE: {
 			gboolean swap = FALSE;
 			int reg;
 
